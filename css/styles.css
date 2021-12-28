@@ -551,7 +551,6 @@ img {
 .footer-social-container {
   padding-top: 72px;
   padding-bottom: 100px;
-  margin-right: 93px;
 }
 
 .footer-social-title {
@@ -605,6 +604,7 @@ img {
 
 .online-form-container{
   width: 570px;
+  margin-left: auto;
   padding-top: 72px;
   padding-bottom: 94px;
 }
@@ -973,6 +973,10 @@ color: #2196F3;
 .modal-checkbox:checked + .checkbox-text .checkbox-item{
   background-color: var(--accent-color);
   border: none;
+}
+
+.modal-checkbox:focus + .checkbox-text .checkbox-item {
+  border-color: var(--accent-color);
 }
 
 .modal-field-checkbox{

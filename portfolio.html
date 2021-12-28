@@ -180,10 +180,8 @@
                 <address class="footer-contacts">
                     <p class="footer-address">г. Киев, пр-т Леси Украинки, 26</p>
                     <ul class="list">
-                        <li class="footer-mail"><a href="mailto:info@example.com"
-                                class="footer-contact link">info@example.com</a></li>
-                        <li class="footer-tel"><a href="tel:+380991111111" class="footer-contact link">+38 099 111 11 11</a>
-                        </li>
+                        <li class="footer-mail"><a href="mailto:info@example.com" class="footer-contact link">info@example.com</a></li>
+                        <li class="footer-tel"><a href="tel:+380991111111" class="footer-contact link">+38 099 111 11 11</a></li>
                     </ul>
                 </address>
             </div>
@@ -219,6 +217,22 @@
                         </a>
                     </li>
                 </ul>
+            </div>
+            <div class="online-form-container">
+                <!-- <p class="online-form-title">Подпишитесь на рассылку</p> -->
+                <form action="#" class="online-form">
+                    <label for="online-email" class="online-form-title">Подпишитесь на рассылку</label>
+                    <input type="email"
+                    name="online-email"
+                    class="online-email"
+                    placeholder="E-mail"
+                    >
+                    <button type="submit" class="online-form-button">Подписаться
+                        <svg class="online-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-online-send"></use>
+                        </svg>
+                    </button>
+                </form>
             </div>
         </div>
     </footer>
