@@ -874,6 +874,16 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-title-color);
+  margin-bottom: 12px;
+}
+
+.form-label-text {
+  display: block;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: var(--main-text-color);
+  margin-bottom: 4px;
 }
 
 .modal-form-input {
@@ -914,14 +924,6 @@ img {
 
 .modal-field {
   margin-bottom: 10px;
-}
-
-.form-label-text {
-  font-size: 12px;
-  line-height: 1.16;
-  letter-spacing: 0.01em;
-  color: var(--main-text-color);
-  margin-bottom: 4px;
 }
 
 .modal-form-comment {
@@ -983,6 +985,8 @@ color: #2196F3;
 }
 
 .modal-field-checkbox{
+  display: flex;
+  justify-content: center;
   margin-bottom: 30px;
 }
 
